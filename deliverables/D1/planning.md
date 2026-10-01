@@ -76,6 +76,14 @@ Do a team-building activity in-person or online. This can be playing an online g
 * Provide a few sentences on what you did and share a picture or other evidence of your team building activity.
 * Share at least three fun facts from members of you team (total not 3 for each member).
 
+The team did an online game night on Discord as a way to get to know each other better. We played typical party games such as Texas Holdem poker (with fake money of course!), pictionary, and Monopoly.
+
+Fun facts:
+Parth visited Spain in the summer.
+Ediz has visited over 20 countries.
+Johnson once ate 32 chicken wings in one sitting.
+
+
 #### Q7: What are the roles & responsibilities on the team?
 
 All members are listed as Full Stack Developers for now. There was a delay in meeting with the partner so we do not have enough information about the technical details and requirements of the project to definitively choose between front-end, back-end or database. We will revise the roles once we know more about the technical details and requirements.
