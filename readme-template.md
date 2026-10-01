@@ -4,9 +4,8 @@
 ​
 ## Partner Intro
  * Include the names, emails, titles, primary or secondary point of contact at the partner organization
- * Provide a short description about the partner organization. (2-4 lines)'
 
-Alex Kirk, alex.kurk@rotman.utoronto.ca, , 
+Alex Kirk, alex.kurk@rotman.utoronto.ca, founder, primary (tentative)
 
 Haptic Visions is developing dynamic tactile display technology that allows blind and low-vision users to physically feel digital content. Their system converts images of websites and other interfaces into real-time 3D representations, using a surface made of movable tactile pixels. Their goal is to create a tool that provides spatial information that could be difficult to understand through audio alone. 
 
