@@ -117,6 +117,18 @@ List/describe the artifacts you will produce to organize your team. (We strongly
    * How do tasks get assigned to team members?
    * How do you determine the status of work from inception to completion?
 
+We track all work using GitHub Issues on our repo. Our TA and partner should have access: https://github.com/csc301-2026-f/deliverable-documents/issues
+ 
+**Artifacts:** GitHub Issues with priority labels; a GitHub Projects board for tracking status; milestones for each deliverable (D1, D2, etc.); epics where each MVP user story is a parent issue broken into smaller sub-issues.
+ 
+**Tracking:** anything that comes up in meetings, partner feedback, or development gets filed as an issue so nothing stays buried in chat.
+ 
+**Prioritization:** each issue gets a label: High (blocks an MVP story or the partner asked for it), Medium (needed for MVP but not blocking), or Low (nice-to-have). Anyone can suggest a priority when creating an issue, and the team confirms labels together at the weekly meeting based on the MVP stories and partner feedback.
+ 
+**Assignment:** pull-based. When someone has capacity they pick up the highest-priority unassigned issue, ideally matching their role, and assign themselves before starting so nobody duplicates work.
+ 
+**Status:** tracked on a GitHub Projects board with columns: To Do, In Progress, In Review, Done. An issue moves to In Progress when someone assigns themselves and opens a branch, to In Review when a PR is up, and to Done when the PR merges and the acceptance criteria are met.
+
 #### Q10: What are the rules regarding how your team works?
 
 **Communications:**
