@@ -1,4 +1,4 @@
-# YOUR PRODUCT/TEAM NAME
+# Real-Time Blind and Low Vision Accessibility Software — Haptic Vision
 > _Note:_ This document will evolve throughout your project. You commit regularly to this file while working on the project (especially edits/additions/deletions to the _Highlights_ section). 
  > **This document will serve as a master plan between your team, your partner and your TA.**
 
@@ -26,15 +26,10 @@
  * **Feel free to use personas. You can create your personas as part of this Markdown file, or add a link to an external site (for example, [Xtensio](https://xtensio.com/user-persona/)).**
 
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
+This product fits the needs of the target users because it’s designed to improve the digital experience of blind and low-vision people by helping them better understand and navigate unfamiliar interfaces. Tools today provide screen readers, magnification software, and tactile displays, but they don’t provide the overall spatial understanding of how the user interface is organized. 
+Research conducted by Alex and his team showed the value of this project. They 3D printed a model of Microsoft Teams interface, and after letting the participants feel this model, they instantly had a better grasp of what the platform, which they’d use almost daily, actually looked like. The study found that providing a 3D representation helped visually impaired participants better understand the architecture of the platform they were using and be able to navigate it more quickly, bringing their understanding of the interface closer to that of sighted users. Using this software, it will allow visually impaired users to better familiarize themselves and understand the content that they’re being shown, and in turn, help them orient themselves more quickly (content ranging from, but not restricted to, online shopping such as Amazon, maps, and other). 
+Overall, there exist bits and pieces of software that provide a similar solution, such as TactiDesk, which captures the screen in real time and converts it into tactile graphics for pin-based displays. However, they don’t provide the interface understanding and tactile representation that Haptic Vision is looking for.  
 
-> Short (1 - 2 min' read max)
- * We want you to "connect the dots" for us - Why does your product (as described in your answer to Q1) fits the needs of your users (as described in your answer to Q2)?
- * Explain the benefits of your product explicitly & clearly. For example:
-    * Save users time (how and how much?)
-    * Allow users to discover new information (which information? And, why couldn't they discover it before?)
-    * Provide users with more accurate and/or informative data (what kind of data? Why is it useful to them?)
-    * Does this application exist in another form? If so, how does your differ and provide value to the users?
-    * How does this align with your partner's organization's values/mission/mandate?
 
 #### Q4: What are the user stories that make up the Minumum Viable Product (MVP)?
 
