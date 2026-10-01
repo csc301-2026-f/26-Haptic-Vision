@@ -90,6 +90,11 @@ List each team member and:
  * A description of their role(s) and responsibilities including the components they'll work on and non-software related work
  * Why did you choose them to take that role? Specify if they are interested in learning that part, experienced in it, or any other reasons. Do no make things up. This part is not graded but may be reviewed later.
 
+All members are listed as Full Stack Developers for now. There was a delay in meeting with the partner so we do not have enough information about the technical details and requirements of the project to definitively choose between front-end, back-end or database. We will revise the roles once we know more about the technical details and requirements.
+
+Sofia will be our team’s partner liaison.
+
+
 
 #### Q8: How will you work as a team?
 
