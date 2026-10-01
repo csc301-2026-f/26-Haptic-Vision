@@ -139,6 +139,16 @@ We track all work using GitHub Issues on our repo. Our TA and partner should hav
  * How are people held accountable for attending meetings, completing action items? What is your process?
  * How will you address the issue if one person doesn't contribute or is not responsive?
 
+**Communications:**
+We use Discord as our main communication channel, with separate channels for specific topics so conversations don't get lost in one general thread. The expected response time is within 24 hours, with flexibility around busy periods like midterms as long as people give the team a heads up.
+ 
+For partner communication, Sofia is our main point of contact. We have weekly meetings with our partner, planned beforehand with a clear agenda. Between meetings, we reach out to the partner through email as needed.
+ 
+**Collaboration:**
+At the start of each weekly meeting, the team reviews outstanding action items from the previous week. If something wasn't completed, we discuss whether to reassign it or adjust the timeline.
+ 
+If someone is unresponsive or not contributing, we reach out to them directly first. If that doesn't work, we bring it up at the next team meeting. If the issue continues after that, we escalate to the TA.
+
 ## Organisation Details
 
 #### Q11. How does your team fit within the overall team organisation of the partner?
