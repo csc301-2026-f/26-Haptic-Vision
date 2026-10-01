@@ -84,13 +84,19 @@ Sofia Borodaenko will be our team’s partner liaison.
 
 #### Q8: How will you work as a team?
 
-Describe meetings (and other events) you are planning to have. 
- * When and where? Recurring or ad hoc? In-person or online?
- * What's the purpose of each meeting?
- * Other events could be coding sessions, code reviews, quick weekly sync meeting online, etc.
- * You should have 2 meetings with your project partner (if you have one) before D1 is due. Describe them here:
-   * You must keep track of meeting minutes and add them to your repo under "deliverables/minutes" folder
-   * You must have a regular meeting schedule established for the rest of the term.  
+Partner meetings:
+We have a weekly online call with Alexander Kurk and his team at Haptic Vision. Alex suggested Saturday at noon; we are picking a Saturday afternoon or Sunday time that works for everyone, and that will be our fixed weekly call for the whole term. We picked the weekend because weekday evenings clash with tutorials and other courses for several of us, and having one fixed time avoids the scheduling back and forth that delayed our second call. Sofia is our contact person for Alex. Before each call she sends him the list of topics so he can prepare. After each call she sends a short email summarizing what was decided and who is doing what by when, so both sides have it in writing. We save the notes from every meeting in the repo under deliverables/team/minutes.
+
+First call (Thursday September 24, 7:55 pm, on our tutorial Zoom, about 40 minutes). Goal: understand what Haptic Vision wants and what problem we are solving. We talked about the problems blind and low vision users have on sites like Amazon, Google Maps, and government forms; the research Alex already did, including a 3D printed model of the Microsoft Teams screen; what kind of AI the project needs; what the input to our system is (a screen capture that works on any browser or app); what the 3D output should look like; whether users need to interact with the 3D version for the first version; and how often we talk. Alex agreed to send us his existing 3D models and example sites before the next call.
+
+Second call (this weekend, at the confirmed weekly time). Goal: agree on the first version of the product, the user stories, and the tech approach, and get his feedback on our mockup. This call got delayed because of Alex's schedule.
+
+Team meetings:
+We have our own weekly team call on Discord, 30 to 45 minutes, right after the call with Alex, so we can turn his feedback into tasks on GitHub the same day while it is fresh. A different person runs the meeting each week so everyone gets practice and we do not depend on one person; whoever is running it posts the topics the day before. We start by checking what everyone finished from last week, then go through progress on each feature, anything someone is stuck on, and the plan for the week. Every task gets a person and a deadline before the meeting ends.
+
+Other events:
+Thursday tutorial for check-ins with the TA and showing our deliverables. Pair coding on Discord whenever someone is stuck, so problems come up early instead of when we try to combine everyone's code. Every code change goes through a pull request and one teammate has to approve it before it goes into the main branch, so nothing unreviewed gets in. One team building activity before the next deliverable.
+
   
 #### Q9: How will you organize your team?
 
