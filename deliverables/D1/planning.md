@@ -30,9 +30,10 @@ Ultimately, the product is intended to help BLV individuals gain greater access 
 
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
 This product fits the needs of the target users because it’s designed to improve the digital experience of blind and low-vision people by helping them better understand and navigate unfamiliar interfaces. Tools today provide screen readers, magnification software, and tactile displays, but they don’t provide the overall spatial understanding of how the user interface is organized. 
-Research conducted by Alex and his team showed the value of this project. They 3D printed a model of Microsoft Teams interface, and after letting the participants feel this model, they instantly had a better grasp of what the platform, which they’d use almost daily, actually looked like. The study found that providing a 3D representation helped visually impaired participants better understand the architecture of the platform they were using and be able to navigate it more quickly, bringing their understanding of the interface closer to that of sighted users. Using this software, it will allow visually impaired users to better familiarize themselves and understand the content that they’re being shown, and in turn, help them orient themselves more quickly (content ranging from, but not restricted to, online shopping such as Amazon, maps, and other). 
-Overall, there exist bits and pieces of software that provide a similar solution, such as TactiDesk, which captures the screen in real time and converts it into tactile graphics for pin-based displays. However, they don’t provide the interface understanding and tactile representation that Haptic Vision is looking for.  
 
+Research conducted by Alex and his team showed the value of this project. They 3D printed a model of Microsoft Teams interface, and after letting the participants feel this model, they instantly had a better grasp of what the platform, which they’d use almost daily, actually looked like. The study found that providing a 3D representation helped visually impaired participants better understand the architecture of the platform they were using and be able to navigate it more quickly, bringing their understanding of the interface closer to that of sighted users. Using this software, it will allow visually impaired users to better familiarize themselves and understand the content that they’re being shown, and in turn, help them orient themselves more quickly (content ranging from, but not restricted to, online shopping such as Amazon, maps, and other). 
+
+Overall, there exist bits and pieces of software that provide a similar solution, such as TactiDesk, which captures the screen in real time and converts it into tactile graphics for pin-based displays. However, they don’t provide the interface understanding and tactile representation that Haptic Vision is looking for.  
 
 #### Q4: What are the user stories that make up the Minumum Viable Product (MVP)?
 
@@ -75,24 +76,11 @@ Do a team-building activity in-person or online. This can be playing an online g
 * Provide a few sentences on what you did and share a picture or other evidence of your team building activity.
 * Share at least three fun facts from members of you team (total not 3 for each member).
 
-
 #### Q7: What are the roles & responsibilities on the team?
-
-Describe the different roles on the team and the responsibilities associated with each role (e.g., frontend, database). 
- * Roles should reflect the structure of your team and be appropriate for your project. One person may have multiple roles.  
- * Add role(s) to your Team-[Team_Number]-[Team_Name].csv file on the main folder.
- * At least one person must be identified as the dedicated partner liaison. They need to have great organization and communication skills.
- * Everyone must contribute to code. Students who don't contribute to code enough will receive a lower mark at the end of the term.
-
-List each team member and:
- * A description of their role(s) and responsibilities including the components they'll work on and non-software related work
- * Why did you choose them to take that role? Specify if they are interested in learning that part, experienced in it, or any other reasons. Do no make things up. This part is not graded but may be reviewed later.
 
 All members are listed as Full Stack Developers for now. There was a delay in meeting with the partner so we do not have enough information about the technical details and requirements of the project to definitively choose between front-end, back-end or database. We will revise the roles once we know more about the technical details and requirements.
 
-Sofia will be our team’s partner liaison.
-
-
+Sofia Borodaenko will be our team’s partner liaison.
 
 #### Q8: How will you work as a team?
 
@@ -105,15 +93,6 @@ Describe meetings (and other events) you are planning to have.
    * You must have a regular meeting schedule established for the rest of the term.  
   
 #### Q9: How will you organize your team?
-
-List/describe the artifacts you will produce to organize your team. (We strongly recommend that you use standard collaboration tools like Linear.app, Jira, Slack, Discord, GitHub.)       
-
- * Artifacts can be To-Do lists, Task boards, schedule(s), meeting minutes, etc.
- * We want to understand:
-   * How do you keep track of what needs to get done? (You must grant your TA and partner access to systems you use to manage work)
-   * **How do you prioritize tasks?**
-   * How do tasks get assigned to team members?
-   * How do you determine the status of work from inception to completion?
 
 We track all work using GitHub Issues on our repo. Our TA and partner should have access: https://github.com/csc301-2026-f/deliverable-documents/issues
  
