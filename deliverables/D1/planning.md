@@ -6,24 +6,27 @@
  
 #### Q1: What is the product?
 
- > Short (1 - 2 min' read)
- * Start with a single sentence, high-level description of the product.
- * Be clear - Describe the problem you are solving in simple terms.
- * Specify if you have a partner, who they are (role/title), and the organization information.
- * Be concrete. For example:
-    * What are you planning to build? Is it a website, mobile app, browser extension, command-line app, etc.?      
-    * When describing the problem/need, give concrete examples of common use cases.
-    * Assume the reader knows nothing about the partner or the problem domain and provide the necessary context. 
- * Focus on *what* your product does, and avoid discussing *how* you're going to implement it.      
-   For example: This is not the time or the place to talk about which programming language and/or framework you are planning to use.
- * **Feel free (and very much encouraged) to include useful diagrams, mock-ups and/or links**.
+Our product is a real-time accessibility system that converts 2D digital interfaces and visual content into interactive, customizable 3D representations to help blind and low vision (BLV) users better understand and interact with digital content.
 
+This project is being developed in partnership with Haptic Vision. Our primary partner contact is **Alexander Kurk, CEO of Tactile Vision and an MBA student at the University of Toronto's Rotman School of Management**. The organization develops assistive technology for blind and low vision individuals. Many modern digital interfaces rely heavily on visual information such as spatial layouts, buttons, images, diagrams, videos, and visual hierarchy. This information can be difficult or impossible for BLV users to perceive using existing accessibility tools, limiting their ability to independently interact with modern digital devices and applications.
+
+Our team will build a functional MVP that captures visual content from a screen or browser window, analyzes the content, and generates a corresponding 3D representation in real time. For example, a button displayed on a webpage could be represented as a raised 3D object, while images and other visual elements could be represented using varying depths and shapes. Important areas of the interface can also be emphasized so that the resulting representation communicates not only where elements are located, but also which elements are most relevant to the user.
+
+Users will be able to customize aspects of the 3D representation, such as depth, scale, and emphasis. The system will also support interaction between the generated 3D representation and the original interface, so that interacting with an element in the 3D representation can correspond to an interaction with the original digital interface.
+
+The software developed during this project represents one component of Haptic Vision's larger accessibility system. In the future, the generated 3D representations are intended to be integrated with robotic assistive technology that can physically reproduce these representations, allowing BLV users to feel and interact with digital interfaces through touch. The robotic hardware and its integration are outside the scope of our project. Our focus is on building the software prototype that converts visual digital content into useful, interactive 3D representations.
 
 #### Q2: Who are your target users?
 
-  > Short (1 - 2 min' read max)
- * Be specific (e.g. a 'a third-year university student taking CSC301 and studying Computer Science' and not 'a student')
- * **Feel free to use personas. You can create your personas as part of this Markdown file, or add a link to an external site (for example, [Xtensio](https://xtensio.com/user-persona/)).**
+The primary target users are **blind and low vision (BLV) individuals who experience difficulty accessing visual and spatial information presented through modern digital interfaces**. These users may currently rely on assistive technologies to interact with computers and other digital devices, but visual information such as interface layouts, images, diagrams, videos, and the spatial relationships between elements can remain difficult to understand.
+
+For example, a BLV user may be able to access the text associated with elements on a webpage but still have difficulty understanding how those elements are spatially organized, which areas are visually emphasized, or what information is being communicated through an image or diagram. Our product aims to provide an alternative representation of this information by translating visual content into customizable 3D structures.
+
+Because accessibility needs can differ between users, customization is an important part of the product. Users should be able to adjust characteristics such as the depth, scale, and emphasis of the generated representation so that information can be presented in a way that is most useful to them.
+
+Secondary stakeholders include the partner organization's researchers and engineers, who may continue developing the system and integrate it with robotic assistive technology in the future. Other stakeholders include accessibility researchers, UI/UX designers exploring alternative ways of representing digital interfaces, assistive technology partners, and future developers who may continue developing and integrating the system.
+
+Ultimately, the product is intended to help BLV individuals gain greater access to the spatial and visual information contained in digital interfaces, while providing the partner organization with a software foundation that can later be integrated with its physical assistive technology.
 
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
 
