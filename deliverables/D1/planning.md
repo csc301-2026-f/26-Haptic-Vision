@@ -35,20 +35,39 @@ Research conducted by Alex and his team showed the value of this project. They 3
 
 Overall, there exist bits and pieces of software that provide a similar solution, such as TactiDesk, which captures the screen in real time and converts it into tactile graphics for pin-based displays. However, they don’t provide the interface understanding and tactile representation that Haptic Vision is looking for.  
 
-#### Q4: What are the user stories that make up the Minumum Viable Product (MVP)?
+#### Q4: What are the user stories that make up the Minimum Viable Product (MVP)?
 
- * At least 5 user stories concerning the main features of the application - note that this can broken down further
- * You must follow proper user story format (as taught in lecture) ```As a <user of the app>, I want to <do something in the app> in order to <accomplish some goal>```
- * User stories must contain acceptance criteria. Examples of user stories with different formats can be found here: https://www.justinmind.com/blog/user-story-examples/. **It is important that you provide a link to an artifact containing your user stories**.
- * If you have a partner, these must be reviewed and accepted by them. You need to include the evidence of partner approval (e.g., screenshot from email) or at least communication to the partner (e.g., email you sent)
+Our proposed MVP covers selecting a capture source, converting its layout into a lightweight 3D representation, updating that representation as the source changes, adjusting depth/scale/emphasis, activating a supported control, and completing the workflow with accessible keyboard and screen-reader support.
+
+The [MVP user-story artifact](user-stories.md) contains six stories in the required “As a …, I want to …, in order to …” format, each with observable acceptance criteria. It defines the evaluation approach, a provisional latency target, and the boundary between our software prototype and the partner's future tactile hardware. Interaction back to the original interface is initially limited to a controlled demonstration page; broader application support requires further investigation.
+
+**Partner review is pending.** The stories are based on the September 24 meeting and our current product definition, but this exact story set has not been confirmed by the partner. Before submission, we must share it with Alex through our partner liaison and attach evidence of that communication or approval. We will revise the stories after his feedback.
 
 #### Q5: Have you decided on how you will build it? Share what you know now or tell us the options you are considering.
 
-> Short (1-2 min' read max)
- * What is the technology stack? Specify languages, frameworks, libraries, PaaS products or tools to be used or being considered. 
- * How will you deploy the application?
- * Describe the architecture - what are the high level components or patterns you will use? Diagrams are useful here. 
- * Will you be using third party applications or APIs? If so, what are they?
+We propose a desktop application that captures a chosen window, passes frames to an analysis adapter, and displays a lightweight 3D scene. The partner already has a screenshot-to-vector pipeline and uses Python for experimentation, so we will first assess that code and agree on its input/output format. This is a proposed approach, pending review with the partner's technical team.
+
+**Stack.** We are considering Electron with TypeScript and React for capture controls and an accessible interface, Three.js for the 3D preview, and a local Python service using FastAPI to connect to the partner's analysis pipeline. Electron supports window/screen capture without tying the source content to one browser, although OS permissions and supported platforms need testing. Simple geometry derived from vector regions should be cheaper to update than detailed meshes. Model selection remains open; we do not propose training a new model for the MVP.
+
+**Architecture.** The capture component retains only the latest pending frame. The Python adapter returns a versioned scene description containing a frame ID, timestamp, source bounds, element IDs, labels, types, and depth/emphasis values. The renderer turns it into geometry and a parallel accessible element list. An isolated interaction adapter maps explicit activation back to the controlled demo page, rejecting stale coordinates. General desktop input needs a separate OS-specific feasibility check; screen capture alone does not provide it.
+
+```mermaid
+flowchart LR
+    A[User-selected window] --> B[Capture and latest-frame queue]
+    B --> C[Local Python adapter]
+    C <--> D[Partner analysis pipeline]
+    C --> E[Versioned scene description]
+    E --> F[3D preview and accessible list]
+    G[Depth, scale and emphasis settings] --> F
+    F -->|Explicit activation| H[Validated interaction adapter]
+    H --> I[Controlled demo page]
+    I --> A
+```
+
+**Deployment and dependencies.** We propose distributing a packaged desktop build and local Python runtime to the TA and partner through the agreed repository, with installation steps and sample screens. We will confirm one supported OS first. Processing should stay local by default, with no stored screen recordings or account database. The service would bind to localhost and require a per-session token; Electron would expose only narrow capture/interaction operations. No paid external AI API or cloud hosting is selected. If the partner pipeline requires a remote service, its access, cost, and screen-data handling must be agreed before use.
+
+Technical references: [Electron capture](https://www.electronjs.org/docs/latest/api/desktop-capturer), [Electron security](https://www.electronjs.org/docs/latest/tutorial/security), [Three.js](https://threejs.org/docs/), and [FastAPI](https://fastapi.tiangolo.com/).
+
 
 ----
 ## Intellectual Property Confidentiality Agreement 
